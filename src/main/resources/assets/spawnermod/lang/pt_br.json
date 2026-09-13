@@ -1,25 +1,28 @@
 {
 	"item.spawnermod.spawner_key": "Chave de Gerador",
+	"item.spawnermod.iron_golem_spawn_egg": "Ovo Gerador de Golem de Ferro",
 	
 	"button.count.default": "Contagem: Padr�o",
 	"button.count.low": "Contagem: Baixa",
 	"button.count.high": "Contagem: Alta",
 	"button.count.very_high": "Contagem: Muita Alta",
-	"button.count.disabled": "Contagem Desativada",
-	
+	"button.count.custom": "Count: Custom",
+	"button.count.tooltip": "Amount of mobs that may spawn and exist nearby.",
+
 	"button.speed.default": "Velocidade: Padr�o",
 	"button.speed.low": "Velocidade: Lenta",
 	"button.speed.high": "Velocidade: R�pida",
 	"button.speed.very_high": "Velocidade: Muito R�pida",
-	"button.speed.disabled": "Velocidade Desativada",
-	
-	"button.range.default": "Alcance: Longe",
-	"button.range.low": "Alcance: Padr�o ",
-	"button.range.high": "Alcance: Muito Longe",
-	"button.range.very_high": "Alcance: Extremo",
-	"button.range.disabled": "Alcance Desativado",
-	"button.range.custom": "Custom range",
-	
+	"button.speed.custom": "Speed: Custom",
+	"button.speed.tooltip": "Frequency at which this spawner activates.",
+
+	"button.range.default": "Alcance: Longe 32",
+	"button.range.low": "Alcance: Padr�o 16",
+	"button.range.high": "Alcance: Muito Longe 64",
+	"button.range.very_high": "Alcance: Extremo 128",
+	"button.range.custom": "Range: Custom",
+	"button.range.tooltip": "Range a player must be within for this spawner to activate.",
+
 	"button.toggle.enabled": "Gerador: Ligado",
 	"button.toggle.disabled": "Gerador: Desligado",
 	
@@ -27,6 +30,9 @@
 	"button.cancel": "Cancelar",
 	
 	"tooltip.spawnermod.spawner_key_disabled": "A Chave de Gerador est� desativada",
-	
-	"gui.spawnermod.spawner_config_screen_title": "Configura��o do Gerador"
+	"tooltip.spawnermod.spawns_remaining": "Spawns remaining: %d",
+
+	"gui.spawnermod.spawner_config_screen_title": "Configura��o do Gerador",
+
+	"spawnermod.networking.spawner_sync_failed": "Unexpected error while handling config sync packet! %d"
 }

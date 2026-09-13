@@ -1,0 +1,38 @@
+{
+	"item.spawnermod.spawner_key": "Chiave del generatore",
+	"item.spawnermod.iron_golem_spawn_egg": "Uovo generatore di golem di ferro",
+
+	"button.count.default": "Conteggio: predefinito",
+	"button.count.low": "Conteggio: basso",
+	"button.count.high": "Conteggio: alto",
+	"button.count.very_high": "Conteggio: molto alto",
+	"button.count.custom": "Count: Custom",
+	"button.count.tooltip": "Amount of mobs that may spawn and exist nearby.",
+
+	"button.speed.default": "Velocità: predefinita",
+	"button.speed.low": "Velocità: lenta",
+	"button.speed.high": "Velocità: alta",
+	"button.speed.very_high": "Velocità: molto alta",
+	"button.speed.custom": "Speed: Custom",
+	"button.speed.tooltip": "Frequency at which this spawner activates.",
+
+	"button.range.default": "Raggio: lontano 32",
+	"button.range.low": "Raggio: predefinito 16",
+	"button.range.high": "Raggio: molto lontano 64",
+	"button.range.very_high": "Raggio: estremo 128",
+	"button.range.custom": "Range: Custom",
+	"button.range.tooltip": "Range a player must be within for this spawner to activate.",
+
+	"button.toggle.enabled": "Generatore: attivato",
+	"button.toggle.disabled": "Generatore: disattivato",
+
+	"button.save": "Salva",
+	"button.cancel": "Annulla",
+
+	"tooltip.spawnermod.spawner_key_disabled": "La chiave del generatore è disabilitata",
+	"tooltip.spawnermod.spawns_remaining": "Spawns remaining: %d",
+
+	"gui.spawnermod.spawner_config_screen_title": "Configurazione generatore",
+
+	"spawnermod.networking.spawner_sync_failed": "Unexpected error while handling config sync packet! %d"
+}

@@ -1,27 +1,38 @@
 {
-	"item.spawnermod.spawner_key": "Ключ Спауна",
+	"item.spawnermod.spawner_key": "Ключ рассадника",
+	"item.spawnermod.iron_golem_spawn_egg": "Яйцо призыва железного голема",
 	
-	"button.count.default": "Количество: обичные",
-	"button.count.low": "Количество: Низкое",
-	"button.count.high": "Количество: Высокое",
-	"button.count.very_high": "Количество: очень высокое",
-	"button.count.disabled": "Подсчет отключен",
+	"button.count.default": "Стандартное кол-во",
+	"button.count.low": "Пониженное кол-во",
+	"button.count.high": "Повышенное кол-во",
+	"button.count.very_high": "Максимальное кол-во",
+	"button.count.custom": "Count: Custom",
+	"button.count.tooltip": "Amount of mobs that may spawn and exist nearby.",
+
+	"button.speed.default": "Стандартная скорость",
+	"button.speed.low": "Медленная скорость",
+	"button.speed.high": "Высокая скорость",
+	"button.speed.very_high": "Максимальная скорость",
+	"button.speed.custom": "Speed: Custom",
+	"button.speed.tooltip": "Frequency at which this spawner activates.",
+
+	"button.range.default": "Радиус активации:",
+	"button.range.low": "Радиус активации:",
+	"button.range.high": "Радиус активации:",
+	"button.range.very_high": "Радиус активации:",
+	"button.range.custom": "Пользовательский радиус",
+	"button.range.tooltip": "Range a player must be within for this spawner to activate.",
+
+	"button.toggle.enabled": "Рассадник включён",
+	"button.toggle.disabled": "Рассадник выключен",
 	
-	"button.speed.default": "Скорость: по умолчанию",
-	"button.speed.low": "Скорость: Медленная",
-	"button.speed.high": "Скорость: быстрая",
-	"button.speed.very_high": "Скорость: очень быстрая",
-	"button.speed.disabled": "Скорость отключена",
-	
-	"button.range.default": "Дальность: Дальний",
-	"button.range.low": "Диапазон: по умолчанию",
-	"button.range.high": "Дальность: Очень далеко",
-	"button.range.very_high": "Диапазон: Extreme",
-	"button.range.disabled": "Диапазон отключен",
-	"button.range.custom": "Custom range",
-	
-	"button.save": "Сохранить",
+	"button.save": "Применить",
 	"button.cancel": "Отмена",
 	
-	"tooltip.spawnermod.spawner_key_disabled": "Ключ генератора отключен"
+	"tooltip.spawnermod.spawner_key_disabled": "Ключ рассадника отключен",
+	"tooltip.spawnermod.spawns_remaining": "Spawns remaining: %d",
+
+	"gui.spawnermod.spawner_config_screen_title": "Spawner Config",
+
+	"spawnermod.networking.spawner_sync_failed": "Unexpected error while handling config sync packet! %d"
 }

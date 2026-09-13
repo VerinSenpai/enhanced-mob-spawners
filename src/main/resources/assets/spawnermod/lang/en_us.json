@@ -1,32 +1,38 @@
 {
-	"item.spawnermod.spawner_key": "Spawner Key",
-	
-	"button.count.default": "Count: Default",
-	"button.count.low": "Count: Low",
-	"button.count.high": "Count: High",
-	"button.count.very_high": "Count: Very High",
-	"button.count.disabled": "Count disabled",
-	
-	"button.speed.default": "Speed: Default",
-	"button.speed.low": "Speed: Slow",
-	"button.speed.high": "Speed: Fast",
-	"button.speed.very_high": "Speed: Very Fast",
-	"button.speed.disabled": "Speed disabled",
-	
-	"button.range.default": "Range: Far",
-	"button.range.low": "Range: Default",
-	"button.range.high": "Range: Very far",
-	"button.range.very_high": "Range: Extreme",
-	"button.range.disabled": "Range disabled",
-	"button.range.custom": "Custom range",
-	
-	"button.toggle.enabled": "Spawner: ON",
-	"button.toggle.disabled": "Spawner: OFF",
-	
-	"button.save": "Save",
-	"button.cancel": "Cancel",
-	
-	"tooltip.spawnermod.spawner_key_disabled": "Spawner key is disabled",
-	
-	"gui.spawnermod.spawner_config_screen_title": "Spawner Config"
+  "item.spawnermod.spawner_key": "Spawner Key",
+  "item.spawnermod.iron_golem_spawn_egg": "Iron Golem Spawn Egg",
+
+  "button.count.default": "Count: Default",
+  "button.count.low": "Count: Low",
+  "button.count.high": "Count: High",
+  "button.count.very_high": "Count: Very High",
+  "button.count.custom": "Count: Custom",
+  "button.count.tooltip": "Amount of mobs that may spawn and exist nearby.",
+
+  "button.speed.default": "Speed: Default",
+  "button.speed.low": "Speed: Slow",
+  "button.speed.high": "Speed: Fast",
+  "button.speed.very_high": "Speed: Very Fast",
+  "button.speed.custom": "Speed: Custom",
+  "button.speed.tooltip": "Frequency at which this spawner activates.",
+
+  "button.range.default": "Range: Default",
+  "button.range.low": "Range: Far",
+  "button.range.high": "Range: Very far",
+  "button.range.very_high": "Range: Extreme",
+  "button.range.custom": "Range: Custom",
+  "button.range.tooltip": "Range a player must be within for this spawner to activate.",
+
+  "button.toggle.enabled": "Spawner: ON",
+  "button.toggle.disabled": "Spawner: OFF",
+
+  "button.save": "Save",
+  "button.cancel": "Cancel",
+
+  "tooltip.spawnermod.spawner_key_disabled": "Spawner key is disabled",
+  "tooltip.spawnermod.spawns_remaining": "Spawns remaining: %d",
+
+  "gui.spawnermod.spawner_config_screen_title": "Spawner Config",
+
+  "spawnermod.networking.spawner_sync_failed": "Unexpected error while handling spawner sync packet! %d"
 }
