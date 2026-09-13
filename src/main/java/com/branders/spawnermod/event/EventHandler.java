@@ -63,7 +63,6 @@ import java.util.List;
 /// Config egg fields has been replaced with an exclusions list. You can add/remove exclusions using ems excluded_eggs add/remove
 /// Attempting to put an egg into a spawner that already has one now drops the one currently inside it.
 /// Attempting to put an egg into a spawner that has reached its spawn limit will drop it.
-/// You no longer need to crouch to remove the egg from a spawner.
 /// As appose to having a toggle for default spawner range, we're just going to use the default value that you set.
 /// Saved spawner data is now transferred to the item upon being broken.
 
