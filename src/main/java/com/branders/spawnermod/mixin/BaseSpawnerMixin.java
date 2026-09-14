@@ -1,7 +1,7 @@
 package com.branders.spawnermod.mixin;
 
 import com.branders.spawnermod.config.Config;
-import com.branders.spawnermod.data.DataAttachments;
+import com.branders.spawnermod.event.EventHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BaseSpawner;
 import net.minecraft.world.level.Level;
@@ -18,8 +18,10 @@ public abstract class BaseSpawnerMixin {
         if (!((level.getBlockEntity(pos) instanceof SpawnerBlockEntity spawner)))
             return;
         
-        if (level.hasNeighborSignal(pos) || spawner.getData(DataAttachments.ENABLED))
+        if (level.hasNeighborSignal(pos) || !EventHandler.isSpawnerEnabled(spawner)) {
             cir.setReturnValue(false);
+            return;
+        }
 
         cir.setReturnValue(
                 level.hasNearbyAlivePlayer(
