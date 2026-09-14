@@ -54,19 +54,6 @@ import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 
 import java.util.List;
 
-
-/// Converted to using the built-in config system.
-/// No longer handling any packet prep and sending. NeoForge handles it.
-/// Removed check for carrier mod (no check implemented for carry-on). The mods play together fine.
-/// Changed spawner right click action to not require crouching.
-/// Fixed a bug where you could restart the counter on a spawner by breaking and placing it again.
-/// Config egg fields has been replaced with an exclusions list. You can add/remove exclusions using ems excluded_eggs add/remove
-/// Attempting to put an egg into a spawner that already has one now drops the one currently inside it.
-/// Attempting to put an egg into a spawner that has reached its spawn limit will drop it.
-/// As appose to having a toggle for default spawner range, we're just going to use the default value that you set.
-/// Saved spawner data is now transferred to the item upon being broken.
-
-
 @EventBusSubscriber
 public class EventHandler {
     /**
